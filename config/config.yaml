@@ -1,0 +1,64 @@
+﻿project:
+  name: "Competitive Intelligence Pipeline"
+  version: "1.0.0"
+  environment: "development"
+
+competitors:
+  amazon:
+    base_url: "https://www.amazon.com"
+    rate_limit: 2
+  bestbuy:
+    base_url: "https://www.bestbuy.com"
+    rate_limit: 1.5
+  walmart:
+    base_url: "https://www.walmart.com"
+    rate_limit: 2
+
+products:
+  - name: "Sony WH-1000XM5"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Headphones"
+    brand: "Sony"
+    
+  - name: "Bose QuietComfort 45"
+    identifiers:
+      amazon: "B098FKXT8L"
+      bestbuy: "6474645"
+      walmart: "856676862"
+    category: "Headphones"
+    brand: "Bose"
+    
+  - name: "Apple AirPods Max"
+    identifiers:
+      amazon: "B08PZHYWBN"
+      bestbuy: "6427344"
+      walmart: "452248064"
+    category: "Headphones"
+    brand: "Apple"
+
+data_pipeline:
+  raw_storage: "data/raw/"
+  processed_storage: "data/processed/"
+  warehouse: "data/warehouse/prices.db"
+  schedule:
+    frequency: "daily"
+    time: "09:00"
+    retry_attempts: 3
+    retry_delay: 300
+
+monitoring:
+  price_change_threshold: 0.15
+  slack_webhook: ""
+
+ml_models:
+  price_prediction:
+    enabled: true
+    lookback_days: 30
+    forecast_days: 7
+  anomaly_detection:
+    enabled: true
+    method: "isolation_forest"
+    contamination: 0.05

@@ -1,0 +1,43 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+data/warehouse/*.db
+*.csv
+*.json
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Secrets
+.env
+config/secrets.yaml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
