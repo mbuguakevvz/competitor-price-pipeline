@@ -1,0 +1,91 @@
+﻿retailers:
+  # US Retailers
+  - name: "Amazon"
+    code: "amazon"
+    base_url: "https://www.amazon.com"
+    icon: "🛒"
+    region: "US"
+    
+  - name: "Best Buy"
+    code: "bestbuy"
+    base_url: "https://www.bestbuy.com"
+    icon: "🏪"
+    region: "US"
+    
+  - name: "Walmart"
+    code: "walmart"
+    base_url: "https://www.walmart.com"
+    icon: "🛍️"
+    region: "US"
+    
+  - name: "Target"
+    code: "target"
+    base_url: "https://www.target.com"
+    icon: "🎯"
+    region: "US"
+    
+  - name: "eBay"
+    code: "ebay"
+    base_url: "https://www.ebay.com"
+    icon: "💲"
+    region: "US"
+    
+  - name: "Newegg"
+    code: "newegg"
+    base_url: "https://www.newegg.com"
+    icon: "💻"
+    region: "US"
+    
+  # International Retailers
+  - name: "Alibaba"
+    code: "alibaba"
+    base_url: "https://www.alibaba.com"
+    icon: "🌏"
+    region: "China"
+    
+  - name: "AliExpress"
+    code: "aliexpress"
+    base_url: "https://www.aliexpress.com"
+    icon: "🌍"
+    region: "China"
+    
+  - name: "Amazon UK"
+    code: "amazon_uk"
+    base_url: "https://www.amazon.co.uk"
+    icon: "🇬🇧"
+    region: "UK"
+    
+  - name: "Amazon DE"
+    code: "amazon_de"
+    base_url: "https://www.amazon.de"
+    icon: "🇩🇪"
+    region: "Germany"
+    
+  - name: "Flipkart"
+    code: "flipkart"
+    base_url: "https://www.flipkart.com"
+    icon: "🇮🇳"
+    region: "India"
+    
+  - name: "Mercado Libre"
+    code: "mercadolibre"
+    base_url: "https://www.mercadolibre.com"
+    icon: "🇲🇽"
+    region: "Latin America"
+
+regions:
+  - name: "North America"
+    retailers: ["Amazon", "Best Buy", "Walmart", "Target"]
+    currency: "USD"
+    
+  - name: "Europe"
+    retailers: ["Amazon UK", "Amazon DE"]
+    currency: "EUR"
+    
+  - name: "Asia"
+    retailers: ["Alibaba", "AliExpress", "Flipkart"]
+    currency: "USD"
+    
+  - name: "Global"
+    retailers: ["eBay", "Newegg"]
+    currency: "USD"

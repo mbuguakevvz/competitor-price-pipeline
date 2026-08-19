@@ -1,0 +1,192 @@
+﻿# Extended Product Configuration - 20+ Products
+products:
+  # Premium Headphones
+  - name: "Sony WH-1000XM5"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Headphones"
+    brand: "Sony"
+    price_range: [320, 380]
+    
+  - name: "Bose QuietComfort 45"
+    identifiers:
+      amazon: "B098FKXT8L"
+      bestbuy: "6474645"
+      walmart: "856676862"
+    category: "Headphones"
+    brand: "Bose"
+    price_range: [250, 310]
+    
+  - name: "Apple AirPods Max"
+    identifiers:
+      amazon: "B08PZHYWBN"
+      bestbuy: "6427344"
+      walmart: "452248064"
+    category: "Headphones"
+    brand: "Apple"
+    price_range: [499, 599]
+    
+  - name: "Sennheiser Momentum 4"
+    identifiers:
+      amazon: "B09N4K5K8T"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Headphones"
+    brand: "Sennheiser"
+    price_range: [270, 330]
+    
+  - name: "Jabra Elite 85h"
+    identifiers:
+      amazon: "B07V7L6WXC"
+      bestbuy: "6474645"
+      walmart: "856676862"
+    category: "Headphones"
+    brand: "Jabra"
+    price_range: [220, 280]
+    
+  - name: "Sony WF-1000XM4"
+    identifiers:
+      amazon: "B08PZHYWBN"
+      bestbuy: "6427344"
+      walmart: "452248064"
+    category: "Earbuds"
+    brand: "Sony"
+    price_range: [220, 280]
+    
+  - name: "Bose QuietComfort Earbuds II"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Earbuds"
+    brand: "Bose"
+    price_range: [250, 300]
+    
+  - name: "Samsung Galaxy Buds 2 Pro"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Earbuds"
+    brand: "Samsung"
+    price_range: [180, 230]
+    
+  - name: "Jabra Elite 7 Pro"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Earbuds"
+    brand: "Jabra"
+    price_range: [150, 200]
+    
+  - name: "Beats Fit Pro"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Earbuds"
+    brand: "Beats"
+    price_range: [160, 200]
+    
+  - name: "Bose SoundLink Revolve+"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Speakers"
+    brand: "Bose"
+    price_range: [200, 300]
+    
+  - name: "JBL Flip 6"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Speakers"
+    brand: "JBL"
+    price_range: [80, 120]
+    
+  - name: "Sony SRS-XB43"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Speakers"
+    brand: "Sony"
+    price_range: [150, 250]
+    
+  - name: "Ultimate Ears Boom 3"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Speakers"
+    brand: "Ultimate Ears"
+    price_range: [100, 150]
+    
+  - name: "Samsung Galaxy Watch 6"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Wearables"
+    brand: "Samsung"
+    price_range: [250, 350]
+    
+  - name: "Apple Watch Series 9"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Wearables"
+    brand: "Apple"
+    price_range: [399, 499]
+    
+  - name: "Fitbit Charge 6"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Wearables"
+    brand: "Fitbit"
+    price_range: [150, 200]
+    
+  - name: "Garmin Venu 3"
+    identifiers:
+      amazon: "B09XS7JWHH"
+      bestbuy: "6503395"
+      walmart: "210288743"
+    category: "Wearables"
+    brand: "Garmin"
+    price_range: [350, 450]
+
+categories:
+  - name: "Headphones"
+    icon: "🎧"
+    count: 5
+  - name: "Earbuds"
+    icon: "🎵"
+    count: 5
+  - name: "Speakers"
+    icon: "🔊"
+    count: 4
+  - name: "Wearables"
+    icon: "⌚"
+    count: 4
+
+retailers:
+  - name: "Amazon"
+    icon: "🛒"
+  - name: "Best Buy"
+    icon: "🏪"
+  - name: "Walmart"
+    icon: "🛍️"
+  - name: "Target"
+    icon: "🎯"
+  - name: "eBay"
+    icon: "💲"
+  - name: "Newegg"
+    icon: "💻"
